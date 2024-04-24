@@ -39,7 +39,7 @@ p{
     width: 150px;
 }
 .menu_header{
-    display: block;
+    display: flex;
     width: max-content;
     background-color: #F0A500;
     color: #000000;
@@ -51,7 +51,7 @@ p{
     list-style: none;
     gap: 15px;
     text-align: center;
-    margin: 0px 70px;
+    margin: auto;
     width: max-content;
 }
 .avisos{
