@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 p{
     font-family: var(--font_p);
 }
-@media (max-width: 400px) { 
+@media (max-width: 600px) { 
  header{
     background-image: url(images.png);
     background-position: center;
