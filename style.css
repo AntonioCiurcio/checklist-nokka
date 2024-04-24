@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --fon_h: "Roboto", sans-serif;
+    --font_p: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 15px;
+    font-family: var(--fon_h);
+}
+p{
+    font-family: var(--font_p);
+}
+@media (max-width: 400px) { 
+ header{
+    background-image: url(images.png);
+    background-position: center;
+    background-color: white;
+    
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+}
+.img_header{
+    width: 150px;
+}
+.menu_header{
+    display: block;
+    width: max-content;
+    background-color: #F0A500;
+    color: #000000;
+    width: 100vw;
+    font-family: var(--fon_h);
+}
+.menu_header_ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    text-align: center;
+    margin: 0px 70px;
+    width: max-content;
+}
+.avisos{
+    margin: 15px 20px;
+    text-align: center;
+    background-color: white ;
+    border-radius: 6px;
+    color: #F0A500;
+    height: 600px;
+}
+.avisos_promocoes_valores{
+    background-color: #F0A500;
+    color: #000000;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+}
+.avisos_promocoes_drinks{
+    background-color: #F0A500;
+    color: #000000;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+}
+.drinks_ul{
+    margin: 5px;
+    list-style: none;
+    text-align: center;
+    font-family: var(--font_p);
+}
+.drinks_ul_li{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+.checklist{
+    margin: 15px 20px;
+    text-align: center;
+    background-color: white ;
+    border-radius: 6px;
+    color: #F0A500;
+    height: 300px;
+}
+.form_checklist{
+    text-align: left;
+    margin: 15px;
+}
+.form_checklist_item{
+    margin-top: 15px;
+}   
+}
